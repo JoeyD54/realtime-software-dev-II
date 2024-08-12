@@ -1,0 +1,16 @@
+//----------------------------------------------------------------------------
+// Copyright 2022, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message Address_proto
+{
+	optional bytes poName = 1;
+	optional bytes poAddr = 2;
+	optional bytes poPhone = 3;
+}
+
+// --- End of File ---

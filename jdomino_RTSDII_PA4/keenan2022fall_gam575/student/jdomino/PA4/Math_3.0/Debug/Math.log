@@ -1,0 +1,13 @@
+﻿  Debug.cpp
+  Mat4.cpp
+  Mat3.cpp
+  Quat.cpp
+  QuatApp.cpp
+  Trig.cpp
+  Util.cpp
+  Vec4.cpp
+  Vec3.cpp
+  Vec3Proxy.cpp
+  Vec4Proxy.cpp
+  Vec3App.cpp
+  Math.vcxproj -> C:\Users\playd\Perforce\Real Time Software Dev II 575\jdomino_RTSDII_PA4\keenan2022fall_gam575\student\jdomino\PA4\_PA4_Engine\Debug\Math_X86Debug.lib

@@ -1,0 +1,23 @@
+//----------------------------------------------------------------------------
+// Copyright 2022, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+// Initially these generate an warning until its used in definition
+import "Vect.proto";
+import "Matrix.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message GameObject_proto
+{
+	// Define Message here:  
+	optional Matrix_proto poMatrix = 1;
+	optional Vect_proto poVect = 2;
+	optional float x = 3;
+	optional sint32 i = 4;
+	optional Vect_proto vA = 5;
+}
+
+// --- End of File ---

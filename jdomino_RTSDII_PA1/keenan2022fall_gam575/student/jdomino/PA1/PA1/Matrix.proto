@@ -1,0 +1,29 @@
+//----------------------------------------------------------------------------
+// Copyright 2022, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message Matrix_proto
+{
+	optional float m0 = 1;
+	optional float m1 = 2;
+	optional float m2 = 3;
+	optional float m3 = 4;
+	optional float m4 = 5;
+	optional float m5 = 6;
+	optional float m6 = 7;
+	optional float m7 = 8;
+	optional float m8 = 9;
+	optional float m9 = 10;
+	optional float m10 = 11;
+	optional float m11 = 12;
+	optional float m12 = 13;
+	optional float m13 = 14;
+	optional float m14 = 15;
+	optional float m15 = 16;
+}
+
+// --- End of File ---

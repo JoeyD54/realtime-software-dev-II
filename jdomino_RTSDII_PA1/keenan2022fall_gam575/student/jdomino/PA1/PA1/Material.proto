@@ -1,0 +1,26 @@
+//----------------------------------------------------------------------------
+// Copyright 2022, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message Material_proto
+{
+	enum Color
+	{
+		Blue = 0;
+		White = 1;
+		Red = 2;
+		Yellow = 3;
+	}
+
+	optional sint32 x = 1;
+	optional Color a = 2;
+	optional Color b = 3;
+	optional Color c = 4;
+
+}
+
+// --- End of File ---

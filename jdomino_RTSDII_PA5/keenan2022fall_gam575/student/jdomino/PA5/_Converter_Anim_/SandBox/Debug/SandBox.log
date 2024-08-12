@@ -1,0 +1,19 @@
+﻿  CreateTexture.cpp
+  CubeMesh.cpp
+  GLTF.cpp
+  main.cpp
+  meshData.cpp
+  meshData.pb.cc
+  meshDataConverter.cpp
+  SphereMesh.cpp
+  StringThis.cpp
+  textureData.cpp
+  textureData.pb.cc
+  textureDataConverter.cpp
+  vboData.cpp
+  vboData.pb.cc
+  vboDataConverter.cpp
+C:\Users\playd\Perforce\Real Time Software Dev II 575\jdomino_RTSDII_PA5\keenan2022fall_gam575\student\jdomino\PA5\Math_3.0\include\Vec3.h(55,39): warning C4471: 'x_enum': a forward declaration of an unscoped enumeration must have an underlying type (compiling source file main.cpp)
+C:\Users\playd\Perforce\Real Time Software Dev II 575\jdomino_RTSDII_PA5\keenan2022fall_gam575\student\jdomino\PA5\Math_3.0\include\Vec3.h(56,39): warning C4471: 'y_enum': a forward declaration of an unscoped enumeration must have an underlying type (compiling source file main.cpp)
+C:\Users\playd\Perforce\Real Time Software Dev II 575\jdomino_RTSDII_PA5\keenan2022fall_gam575\student\jdomino\PA5\Math_3.0\include\Vec3.h(57,39): warning C4471: 'z_enum': a forward declaration of an unscoped enumeration must have an underlying type (compiling source file main.cpp)
+  SandBox.vcxproj -> C:\Users\playd\Perforce\Real Time Software Dev II 575\jdomino_RTSDII_PA5\keenan2022fall_gam575\student\jdomino\PA5\_Converter_Anim_\Debug\SandBox.exe

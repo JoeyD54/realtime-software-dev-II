@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::GameObject">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="GetGraphicsObject" Hidden="true" />
+      <Method Name="GetWorld" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetWorld" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AJQAAAAAIAAAAkAAAARAAAAAAAAAAAAAAAAhEAIAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poGraphicsObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsObject">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="~GraphicsObject" Hidden="true" />
+      <Method Name="GraphicsObject" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAAAAYABAgAAAAAAAAAABAhEAAAAAA=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMesh" />
+      <Field Name="pShaderObj" />
+      <Field Name="poWorld" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RenderMaterial">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~RenderMaterial" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="RenderMaterial" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgAAAAAAEAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RenderMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAEAAEAAgAAAAAAAAAAEQAAAAQBgQAAEBAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderObject" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ShaderObject::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ShaderObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAAhAAAAAAAgAAAAABEQBCAAIBgAKAABAA=</HashCode>
+      <FileName>ShaderObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeMesh" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAgAAAAA=</HashCode>
+      <FileName>CubeMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_FlatTexture">
+    <Position X="3.25" Y="5" Width="2" />
+    <Members>
+      <Method Name="GraphicsObject_FlatTexture" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAJAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicsObject_FlatTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Matrix" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIBCIgAAAACBAAEAAAQAwwBAAkEiEAAAgAAwAAAEQAA=</HashCode>
+      <FileName>C:\code\keenan2022spring_gam475\instructor\Lecture\Week_08\Math\include\Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

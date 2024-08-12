@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::GameObject">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="GetGraphicsObject" Hidden="true" />
+      <Method Name="GetWorld" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetWorld" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABQAQAAAAAAgAkAAAARAAgAAABAAAAAAAAAhEAICAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poGraphicsObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsObject">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="~GraphicsObject" Hidden="true" />
+      <Method Name="GraphicsObject" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAAAAYABAgAAAAAAAAAABAhEAAAAAE=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMesh" />
+      <Field Name="pShaderObj" />
+      <Field Name="poWorld" />
+      <Field Name="poCurrSphere" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RenderMaterial">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~RenderMaterial" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="RenderMaterial" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgAAAAAAEAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RenderMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAAAIEAQAAAgACAAAAAoAAEQgAAAQBgQAAEBAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderObject" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAAhAAAAABAgAAAAABEQBCAAIBgAKAARAA=</HashCode>
+      <FileName>ShaderObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeMesh" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAgAAAAA=</HashCode>
+      <FileName>CubeMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_FlatTexture">
+    <Position X="5" Y="5" Width="2" />
+    <Members>
+      <Method Name="GraphicsObject_FlatTexture" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAJAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicsObject_FlatTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Mat4" Collapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIBCOAAAAQCBAAEAGAQAwwJAAkEiEAAAgAAwCAAMQAA=</HashCode>
+      <FileName>C:\code\keenan2022fall_gam575\instructor\lectures\Week_09\w9(7) - ChickenBot - TimerController\Math_3.0\include\Mat4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Sphere" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAagAAAAAAAAAQAgAAAAAAAAAAAAAAgAAAIIAA=</HashCode>
+      <FileName>BoundingSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,15 @@
+//----------------------------------------------------------------------------
+// Copyright 2022, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message Angry_proto
+{
+	repeated sint32 arr = 1;
+	optional float value = 2;
+}
+
+// --- End of File ---

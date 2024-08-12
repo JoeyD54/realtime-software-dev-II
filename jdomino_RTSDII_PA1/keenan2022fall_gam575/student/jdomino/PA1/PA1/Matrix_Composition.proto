@@ -1,0 +1,20 @@
+//----------------------------------------------------------------------------
+// Copyright 2022, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+// Initially these generate an warning until its used in definition
+import "Vect.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message Matrix_Composition_proto
+{
+	optional Vect_proto v0 = 1;
+	optional Vect_proto v1 = 2;
+	optional Vect_proto v2 = 3;
+	optional Vect_proto v3 = 4;
+}
+
+// --- End of File ---

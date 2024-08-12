@@ -1,0 +1,14 @@
+//----------------------------------------------------------------------------
+// Copyright 2022, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message testData_proto
+{
+	optional uint32 x_val = 1;
+}
+
+// -- End of File ---
